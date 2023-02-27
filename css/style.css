@@ -23,3 +23,22 @@ header, #bot-footer{
 #top-footer{
     background-color: var(--light-gray);
 }
+#portfolio img{
+    width: 100%;
+}
+#contact .info{
+    margin-bottom: 130px;
+}
+#contact .btn{
+    background-color: var(--hero);
+}
+.freelancer span{
+    color: var(--hero);
+}
+.location, .icon, .freelancer{
+    width: calc(100% / 3);
+}
+#bot-footer{
+    padding: 50px;
+}
+
