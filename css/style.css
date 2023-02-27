@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --hero: #1ABC9C;
+    --dark-grey: #2C3E50;
+    --light-gray: #3A546D;
+    --white: #ffffff;
+    --black: #333333;
+}
+header, #bot-footer{
+    background-color: var(--dark-grey);
+    color: var(--white);
+}
+#hero, #about{
+    background-color: var(--hero);
+}
+#portfolio, #contact{
+    background-color: var(--white);
+}
+#top-footer{
+    background-color: var(--light-gray);
+}
