@@ -12,14 +12,14 @@
 <body>
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-md ">
                 <div class="container-fluid">
                   <a class="navbar-brand text-white fs-2" href="#">START BOOTSTRAP</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-end">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 flex-end">
                       <li class="nav-item">
                         <a class="nav-link active  text-white text-uppercase" aria-current="page" href="#">portfolio</a>
                       </li>
@@ -42,7 +42,9 @@
                 <figure class="figure">
                     <img src="./img/avatar.svg" class="figure-img img-fluid rounded" alt="avatar">
                     <h2 class="text-uppercase fs-2 text-white">Start Boostrap</h2>
-                    <i class="fa-solid fa-star text-white"></i>
+                    <div class="stars w-50 mx-auto d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-star text-white fs-2"></i>
+                    </div>
                     <figcaption class="figcaption fs-5 text-white text-uppercase">graphic artist - web designer - illustrator</figcaption>
                   </figure>
             </div>
@@ -50,20 +52,26 @@
 
         <section id="portfolio">
             <div class="container">
+                <div class="text-center">
+                    <h1 class="text-uppercase text-black">portfolio</h1>
+                    <div class="star w-50 mx-auto d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-star text-black fs-2"></i>
+                    </div>
+                </div>
                 <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 ">
                         <img src="./img/cabin.png" alt="cabin">
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 ">
                         <img src="./img/cake.png" alt="cake">
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 ">
                         <img src="./img/circus.png" alt="circo">
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 ">
                         <img src="./img/game.png" alt="game">
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 ">
                         <img src="./img/safe.png" alt="safe">
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
@@ -77,7 +85,9 @@
         <section id="about">
             <div class="container text-center">
                 <h1 class="text-white">ABOUT</h1>
-                <i class="fa-solid fa-star text-white"></i>
+                <div class="stars w-50 mx-auto d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-star text-white fs-2"></i>
+                </div>
                 <div id="paragraph" class="d-flex text-white d-sm-block">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum placeat neque ea molestias ab aspernatur aliquam rem velit, excepturi ipsa minus architecto facilis cumque quidem! Aliquid reiciendis nam corporis eveniet?</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus ipsa corrupti iure optio cumque enim autem quia quo molestiae libero labore quibusdam nemo, repellat ipsam eius rerum corporis, earum nihil!</p>
@@ -90,7 +100,9 @@
             <div class="container">
                 <div class="text-center">
                     <h1 class="text-uppercase text-black">contact me</h1>
-                    <i class="fa-solid fa-star text-black fs-2"></i> 
+                    <div class="star w-50 mx-auto d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-star text-black fs-2"></i>
+                    </div>
                 </div>
                 <div class="info">
                     <h4 class="">Nome</h4>
@@ -118,6 +130,12 @@
                     </div>
                     <div class="icon">
                         <h4 class="text-uppercase">Around the web</h4>
+                        <span class="icon-bottom">
+                            <i class="border rounded-circle fa-brands fa-facebook-f"></i>
+                            <i class="border rounded-circle fa-brands fa-google-plus-g"></i>
+                            <i class="border rounded-circle fa-brands fa-twitter"></i>
+                            <i class="border rounded-circle fa-brands fa-linkedin-in"></i>
+                        </span>
                     </div>
                     <div class="freelancer ">
                         <h4 class="text-uppercase">about freelancer</h4>

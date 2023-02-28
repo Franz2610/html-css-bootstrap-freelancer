@@ -25,7 +25,11 @@ header, #bot-footer{
 }
 #portfolio img{
     width: 100%;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 10px;
 }
+
 #contact .info{
     margin-bottom: 130px;
 }
@@ -41,4 +45,34 @@ header, #bot-footer{
 #bot-footer{
     padding: 50px;
 }
+.stars, .star{
+    width: 50%;
+}
+
+.stars i, .star i{
+    display: block;
+    width: 20%;
+}
+
+.stars::before,
+.stars::after{
+    content: ' ';
+    display: block;
+    width: 40%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--white);
+}
+.star::before,
+.star::after{
+    content: ' ';
+    display: block;
+    width: 40%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--black);
+}
+
+
+
 
