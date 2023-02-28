@@ -25,8 +25,6 @@ header, #bot-footer{
 }
 #portfolio img{
     width: 100%;
-    position: relative;
-    cursor: pointer;
     padding-bottom: 10px;
 }
 
@@ -41,6 +39,7 @@ header, #bot-footer{
 }
 .location, .icon, .freelancer{
     width: calc(100% / 3);
+    margin: 0 auto;
 }
 #bot-footer{
     padding: 50px;
@@ -72,7 +71,46 @@ header, #bot-footer{
     border-radius: 2px;
     background-color: var(--black);
 }
+.icon-bottom{
+    padding-right: 10px;
+    font-size: 1.2rem;
+}
+.icon-bottom i{
+    padding: 10px;
+}
+#mynav a{
+    color: var(--white);
+}
+#mynav a:hover {
+    color: #1ABC9C;
+}
 
+.btn:hover{
+    opacity: 1;
+    background-color: #2C3E50;
+}
+#contact .btn:hover{
+    opacity: 1;
+    background-color: #2C3E50;
+}
+.img-container:after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    content: '+';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--hero);
+    opacity: 0;
+    color: var(--white);
+}
+.img-container:hover:after{
+    opacity: .3;
+}
 
 
 

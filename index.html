@@ -15,19 +15,19 @@
             <nav class="navbar navbar-expand-md ">
                 <div class="container-fluid">
                   <a class="navbar-brand text-white fs-2" href="#">START BOOTSTRAP</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="mynav" aria-controls="mynav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 flex-end">
+                  <div class="collapse navbar-collapse " id="mynav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                       <li class="nav-item">
-                        <a class="nav-link active  text-white text-uppercase" aria-current="page" href="#">portfolio</a>
+                        <a class="nav-link active   text-uppercase" aria-current="page" href="#">portfolio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link  text-white text-uppercase" href="#">about</a>
+                        <a class="nav-link   text-uppercase" href="#">about</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link disabled text-white text-uppercase">contact</a>
+                        <a class="nav-link disabled  text-uppercase">contact</a>
                       </li>
                     </ul>
                   </div>
@@ -37,7 +37,7 @@
     </header>
 
     <main>
-        <section id="hero">
+        <section id="hero" class="m-5">
             <div class="container text-center">
                 <figure class="figure">
                     <img src="./img/avatar.svg" class="figure-img img-fluid rounded" alt="avatar">
@@ -50,7 +50,7 @@
             </div>
         </section>
 
-        <section id="portfolio">
+        <section id="portfolio" class="m-5">
             <div class="container">
                 <div class="text-center">
                     <h1 class="text-uppercase text-black">portfolio</h1>
@@ -60,29 +60,41 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-sm-6 col-md-4 ">
-                        <img src="./img/cabin.png" alt="cabin">
+                        <div class="img-container position-relative">
+                            <img src="./img/cabin.png" alt="cabin">
+                        </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 ">
-                        <img src="./img/cake.png" alt="cake">
+                        <div class="img-container position-relative">
+                            <img src="./img/cake.png" alt="cake">
+                        </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 ">
-                        <img src="./img/circus.png" alt="circo">
+                        <div class="img-container position-relative">
+                            <img class="img-fluid" src="./img/circus.png" alt="circo">
+                        </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 ">
-                        <img src="./img/game.png" alt="game">
+                        <div class="img-container position-relative">
+                            <img src="./img/game.png" alt="game">
+                        </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 ">
-                        <img src="./img/safe.png" alt="safe">
+                        <div class="img-container position-relative">
+                            <img src="./img/safe.png" alt="safe">
+                        </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <img src="./img/submarine.png" alt="sub">
+                        <div class="img-container position-relative">
+                            <img src="./img/submarine.png" alt="sub">
+                        </div>
                     </div>
                 </div>
             </div>
         
         </section>
 
-        <section id="about">
+        <section id="about" class="m-5">
             <div class="container text-center">
                 <h1 class="text-white">ABOUT</h1>
                 <div class="stars w-50 mx-auto d-flex justify-content-center align-items-center">
@@ -96,7 +108,7 @@
             </div>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="m-5">
             <div class="container">
                 <div class="text-center">
                     <h1 class="text-uppercase text-black">contact me</h1>
@@ -120,10 +132,10 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="m-5">
         <section id="top-footer" >
             <div class="container text-white">
-                <div class=" d-flex justify-content-between text-center">
+                <div class=" d-sm-flex justify-content-between text-center">
                     <div class="location">
                         <h4 class="text-uppercase">Location</h4>
                         <p>2215 Jonh Daniel Drive Clark, Mo 54243</p>
