@@ -25,7 +25,6 @@ header, #bot-footer{
 }
 #portfolio img{
     width: 100%;
-    padding-bottom: 10px;
 }
 
 #contact .info{
@@ -93,11 +92,17 @@ header, #bot-footer{
     opacity: 1;
     background-color: #2C3E50;
 }
+.img-container{
+    cursor: pointer;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    overflow: hidden;
+}
 .img-container:after{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5rem;
+    font-size: 8rem;
     content: '+';
     position: absolute;
     top: 0;
@@ -106,10 +111,10 @@ header, #bot-footer{
     left: 0;
     background-color: var(--hero);
     opacity: 0;
-    color: var(--white);
+    color: white;
 }
 .img-container:hover:after{
-    opacity: .3;
+    opacity: .5;
 }
 
 
